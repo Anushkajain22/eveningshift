@@ -1,0 +1,276 @@
+               KOTLIN LANGUAGE
+
+#######################################
+
+1.fun main() {
+    println("Hello, world!")
+  }
+#######################################
+
+2.fun main() {
+    println( "Happy Birthday,Rover!" )
+   
+    println("   ,,,,,  ")
+    println("   |||||  ")
+    println("==========")
+    println("@@@@@@@@@@@")
+    println("{*@*@*@*@*@}")
+    println("@@@@@@@@@@@@")
+    println("")
+    //comment
+    println("")
+    println("You are already 5!")
+    println("5 is the best age to     celebrate")
+
+OUTPUT:
+Happy Birthday,Rover!
+   ,,,,,  
+   |||||  
+==========
+@@@@@@@@@@@
+{*@*@*@*@*@}
+@@@@@@@@@@@@
+
+
+You are already 5!
+5 is the best age to celebrate
+
+#######################################
+
+*val is a special word used by Kotlin, called a keyword, indicating that what follows is the name of a variable.
+*age is the name of the variable.
+eg.
+fun main{
+    val age=5
+    print(age)
+}                   output:5
+
+*Important: A variable declared using the val keyword can only be set once. You cannot change its value later in the program.
+
+You can declare a changeable variable with the var keyword, which you will do in a later codelab.
+
+#######################################
+
+fun main() {
+    var age=5
+    println("You are already ${age}!")
+    age=9
+    println("${age} is the best age to celebrate!")
+}
+OUTPUT:
+You are already 5!
+9 is the best age to celebrate!
+
+#######################################
+
+fun main() {
+    val name="Rover"
+    var age=5
+    
+     println( "Happy Birthday,${name}!" )
+   
+    println("   ,,,,,  ")
+    println("   |||||  ")
+    println("==========")
+    println("@@@@@@@@@@@")
+    println("{*@*@*@*@*@}")
+    println("@@@@@@@@@@@@")
+    println("")
+    //comment
+    println("")
+    println("You are already ${age} years old,${name}!")
+    age=5*2
+    println("${age} is the best age to     celebrate")
+}
+OUTPUT:
+Happy Birthday,Rover!
+   ,,,,,  
+   |||||  
+==========
+@@@@@@@@@@@
+{*@*@*@*@*@}
+@@@@@@@@@@@@
+
+
+You are already 5 years old,Rover!
+10 is the best age to     celebrate
+
+#######################################
+
+fun printBorder() {
+    repeat(23) {
+        print("=")
+    }
+}
+
+OUTPUT:
+=======================
+
+#######################################
+
+fun main (){
+    printBorder()
+    println("Hppy Birthday , Anushka!")
+    printBorder()
+}
+fun printBorder() {
+    repeat(23){
+        print("=")
+    }
+   println()
+    
+}
+
+OUTPUT:
+=======================
+Hppy Birthday , Anushka!
+=======================
+
+#################################
+
+fun main (){
+    printBorder()
+    println("Hppy Birthday , Anushka!")
+    printBorder()
+}
+fun printBorder() {
+    repeat(23){
+        print("=")
+    }
+   
+    
+}
+
+OUTPUT:
+=======================Hppy Birthday , Anushka!
+=======================
+
+######################################
+
+fun main (){
+    val border="%"
+    printBorder(border)
+    println("Hppy Birthday , Anushka!")
+    printBorder(border)
+}
+fun printBorder() {
+    repeat(23){
+        print("=")
+    }
+   
+    
+}
+OUTPUT:error
+
+#####################################
+
+fun main (){
+    val border="%"
+    printBorder(border)
+    println("Hppy Birthday , Anushka!")
+    printBorder(border)
+}
+fun printBorder(border: String) {
+    repeat(23){
+        print(border)
+    }
+    println()
+   
+    
+}
+
+OUTPUT:
+%%%%%%%%%%%%%%%%%%%%%%%
+Hppy Birthday , Anushka!
+%%%%%%%%%%%%%%%%%%%%%%%
+
+#####################################
+
+fun main (){
+    var border="*"
+    border=":"
+    border="'-._,-'"
+    val timesToRepeat = 4
+    printBorder(border ,timesToRepeat)
+    println("Hppy Birthday , Anushka!")
+    printBorder(border,timesToRepeat)
+}
+fun printBorder(border: String, timesToRepeat:Int) {
+    repeat(timesToRepeat){
+        print(border)
+    }
+    println()
+   
+    
+}
+
+########################################
+fun main (){
+    val age=24
+    var candles=","
+    
+    val layers=5
+    cakecandles(",",age)
+    candles="|"
+    cakecandles("|",age)
+    
+    val top="@"
+    caketop(age,layers)
+}
+fun cakecandles(candles:String,age:Int){
+    repeat(age){
+        print(candles)
+    }
+    println()
+}
+fun caketop( age:Int,layers:Int){
+    repeat(5){
+        repeat(age+2){
+        print("@")
+    }
+   
+    println()
+    }
+}
+
+Output:
+,,,,,,,,,,,,,,,,,,,,,,,,
+||||||||||||||||||||||||
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Output:
+
+'-._,-''-._,-''-._,-''-._,-'
+Hppy Birthday , Anushka!
+'-._,-''-._,-''-._,-''-._,-'
+
+
+
+   
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+Q.what is multimeter and how it is useful to study electronics circuits?
+
+Ans.A multimeter is a measuring instrument that can measure multiple electrical properties. A typical multimeter can measure voltage, resistance, and current.
+
+Q.What is semiconductor diode? how are reverse bias characteristics different from that of forward bias characteristics?
+
+Ans.A semiconductor diode is a diode made of semiconductor material, most often silicon.
+In a typical diode, forward biasing occurs when the voltage across a diode permits the natural flow of current, whereas reverse biasing denotes a voltage across the diode in the opposite direction. However, the voltage present across a diode during reverse biasing does not produce any significant flow of current.
+
+Q.different applications of fixed and variable types of resistors
+
+Ans.fixed:They are used in electronics circuits to set the right conditions in a circuit.
+
+variable:Audio control,tv,home electrical appliances
+
+Q.what is a breadboard ?used  in electronics.
+
+Ans.A thin plastic board used to hold electronic components (transistors, resistors, chips, etc.) that are wired together. Used to develop prototypes of electronic circuits, breadboards can be reused for future jobs. They can be used to create one-of-a-kind systems but rarely become commercial products.
+
+Q.diff between ordinary diode and led
+
+Ans.Normal diodes are designed to affect electrical current, while LEDs are created to make light.
+
+Q.why led is used in forward bias?
+
+Ans.A negative voltage is applied to N type and a positive voltage on the P side. When this occurs in LED , free electrons in the conduction band recombine with holes in the valence band. This leads to energy emission, Hence, the LED is forward biased.
+
+Q.how much volt does it take to power a led?
+Ans.between 1.8 and 3.3 volts
+
+
+

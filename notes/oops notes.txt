@@ -1,0 +1,68 @@
+Basics fundamental of OOPS
+ 
+
+*Program
+*Algorithm
+*Flowchart
+*Compiler & Interpreter
+*low level(machine dependent) and high level language( application software banate h independent hota h hardware  ) -(h.w. datatypes ,variables)
+*Number system
+* how computer work
+*C++ compiler
+
+#set of instructions given by in a simple language -Algorithm
+
+*Object oriented programming: C++ is a language,program that is designed using objects and classes object has an entity that has state(data) and behaviour(functionality) .It also contain data in the form of attributes and code in the form of methods .Object is an instance of a class (is a grp of similar objects) i.e cars
+class is a template from which objects are created  it can have fields,methods,functions,constructors  .
+#########################################################
+class student
+{
+    int id;                #int ,float,string:datatype
+    float number ;
+    string s;    
+};
+    int main()
+{
+    student s1;
+    student s2;
+    s1.name="";
+    s2.name="";
+}
+
+########################################
+
+*POP:  It can be def as programming model which is derive from structure programming base upon the concept of calling procedure  also known as routines,subroutines,functions.
+
+
+*Diff b/w pop oop:
+  oop :
+      contains classes, objects and methods 
+       focus on data and classes,
+       easy to maintain
+       can be modified easily
+  pop :module,records ,procedures.
+       focus on process;funtions,procedures .
+       If the subproccesor has to modified then it is diff to modify prgm.
+
+*Diff b/w structure and class:
+  stucure: Grouping of variables of variable datatype  referred by the same name
+	   if no access modifier or specifier is given then all the members are said to be             public .
+	   an instance of it has structure var
+	   it not support inheritance concept
+           memory is allocated on structure.
+           parametrised constuctors.
+           the struct keyword indicate the compiler the structure has been declared.
+	   i.e.
+    	   struct structure name 
+	   {
+	   };
+  class:  members public
+	  an instance of class is object
+	  it support inheritance concept
+	  memory is allocated on heap.
+	  have null value
+          all constructors and destructors .
+
+
+
+

@@ -1,0 +1,63 @@
+<body>
+    <h2>
+        Javascript
+    </h2>
+    <h3 id='demo'>
+
+    </h3>
+    <button onclick='document.getElementById("demo").innerHTML=Date()'>
+    Date</button>
+</body>
+
+output:
+Javascript
+Thu Jan 20 2022 12:33:23 GMT+0530 (India Standard Time)
+Date
+
+//////////////////////
+
+<body>
+    <button onclick='displayDate()'>time</button>
+    <script>
+        function displayDate(){
+            document.getElementById('demo').innerHTML=Date();
+        }
+    </script>
+    <p id='demo'></p>
+</body>
+
+output:
+time
+Thu Jan 20 2022 12:41:36 GMT+0530 (India Standard Time)
+
+////////////////////////
+
+
+<body>
+   <button onmouseover
+   ="this.style.backgroundColor='red'" onmouseout="this.style.background='linear-gradient(green,white)'"  > next
+
+   </button>
+
+   <div 
+onmouseover
+="this.style.backgroundColor='red'">myDIV.</div>
+</body>
+
+//////////////////
+
+<body>
+    <form onsubmit="confirmInput()" action="mailto:anushka0241.be21@chtkara.edu.in">
+    enter ur name : <input id='fname' type="text" size='20'>
+    <input type ='submit'>
+    
+    </form>
+
+
+    <script>
+        function confirmInput(){
+            fname=document.forms[0].fname.value;
+            alert('hello' + fname + 'you will be now redirected to UR POCKET');
+        }
+    </script>
+</body>
